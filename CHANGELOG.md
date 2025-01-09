@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.6](https://github.com/BuilderIO/micro-agent/compare/v0.0.41...v0.1.6) (2025-01-09)
+
+
+### Features
+
+* abort if the same error happens on repeat ([49bb033](https://github.com/BuilderIO/micro-agent/commit/49bb03373c9c8f8a309014058fab6aadb44be585))
+* add anthropic key to interactive config UI ([af0cd1f](https://github.com/BuilderIO/micro-agent/commit/af0cd1f3f49077a3a5d3e8935c614e16d1ee745c))
+* detect if in a valid project and generate one if not ([b8a5731](https://github.com/BuilderIO/micro-agent/commit/b8a5731e82fd5541c738cdf094870fbac035386b))
+* option to disable assistants ([c5b2c8e](https://github.com/BuilderIO/micro-agent/commit/c5b2c8e4e2004d8566b4c088b5a36294e61a8127))
+* support azure openai endpoint configuration ([110c7fc](https://github.com/BuilderIO/micro-agent/commit/110c7fc23f01ce51b07df77b966203c451c8f41f))
+
+
+### Bug Fixes
+
+* default to vitest if no existing testing library ([1a71f6a](https://github.com/BuilderIO/micro-agent/commit/1a71f6a2c123ae48022b9ff66e13a80c03a6d301))
+* fix code formatting according to linting rules ([09546fc](https://github.com/BuilderIO/micro-agent/commit/09546fce3290b66fd17a09424e1d80b0fa3ca194))
+* format code according to lint rules ([ed47c97](https://github.com/BuilderIO/micro-agent/commit/ed47c973aa064c59332d917c712fafa246a03ea6))
+* hashbang issue on Windows by upgrading pkgroll to 1.11+ ([cb34416](https://github.com/BuilderIO/micro-agent/commit/cb34416ec7ce0bdb95c0c2f03a3139641137431e))
+* move sharp to be async so it doesn't throw errors when not needed ([c86f371](https://github.com/BuilderIO/micro-agent/commit/c86f3711b871099d5b6d8b06777a6477e9463468))
+* suppress punnycode warnings ([ab9f1b5](https://github.com/BuilderIO/micro-agent/commit/ab9f1b5af52d769e020104915cf052c1b045ad0c))
+* windows compatible unit tests ([65ccf0f](https://github.com/BuilderIO/micro-agent/commit/65ccf0f87dd71d81ad8b6607453b62df8cb5637d))
+
 ### [0.1.5](https://github.com/BuilderIO/micro-agent/compare/v0.1.4...v0.1.5) (2024-07-10)
 
 
